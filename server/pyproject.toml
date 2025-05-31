@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "server"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+classifiers = [
+    "Private :: Do Not Upload"
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
